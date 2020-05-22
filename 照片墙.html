@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>照片墙</title>
+    <style type="text/css">
+        body{
+            background-image: url('背景.jpg');
+        }
+        ul,li{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            display: inline;
+        }
+        ul{
+            margin:0 0 20px 10px ;
+        }
+        ul img{
+            display: block;
+            width: 140px;
+            margin-bottom: 15px;
+        }
+        ul a{
+            background-color: white;
+            display: inline;
+            float: left;
+            width: auto;
+            margin: 0 0 27px 30px;
+            padding: 10px 10px 15px;
+            text-decoration: none;
+            text-align: center;
+            font-size: 15px;
+            color: black;
+            box-shadow: 0 5px 8px rgba(0,0,0,0.25) ;
+            -webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.25);
+        }
+        ul li a:after{
+            content: attr(title);
+        }
+        .pic1 a {
+            -webkit-transform: rotate(5deg);
+            transform: rotate(5deg);
+            position: relative;
+            top: 50px;
+            right: 5px;
+        }
+        .pic2 a {
+            -webkit-transform: rotate(-3deg);
+            transform: rotate(-3deg);
+            position: relative;
+            top: 50px;
+            right: 5px;
+        }
+        .pic3 a {
+            -webkit-transform: rotate(4deg);
+            transform: rotate(4deg);
+            position: relative;
+            top:50px;
+            right: 5px;
+        }
+        .pic4 a {
+            -webkit-transform: rotate(7deg);
+            transform: rotate(7deg);
+            position: relative;
+            top: 50px;
+            right: 5px;
+        }
+        .pic5 a {
+            -webkit-transform: rotate(-4deg);
+            transform: rotate(-4deg);
+            position: relative;
+            top:50px;
+            right: 5px;
+        }
+        .pic6 a {
+            -webkit-transform: rotate(3deg);
+            transform: rotate(3deg);
+            position: relative;
+            top: 50px;
+            right: 5px;
+        }
+        ul li a:hover{
+            transform: scale(1.25);
+            -webkit-transform: scale(1.25);
+            box-shadow: 0 3px 6px rgba(0,0,0,0.25) ;
+            -webkit-box-shadow: 0 3px 6px rgba(0,0,0,5);
+        }
+
+    </style>
+</head>
+<body>
+    <ul class="photo">
+        <li class="pic1">
+            <a href=" "title="KFC"><img src="KFC.JPG"/></a>
+        </li>
+        <li class="pic2">
+            <a href=" "title="吃吃吃！"><img src="吃吃吃！.JPG"/></a>
+        </li>
+        <li class="pic3">
+            <a href=" "title="干杯"><img src="干杯！.JPG"/></a>
+        </li>
+        <li class="pic4">
+            <a href=" "title="美味"><img src="美味！.JPG"/></a>
+        </li>
+        <li class="pic5">
+            <a href=" "title="波波奶茶"><img src="波波奶茶.JPG"/></a>
+        </li>
+        <li class="pic6">
+            <a href=" "title="粗薯"><img src="粗薯.JPG"/></a>
+        </li>
+    </ul>
+</body>
+</html>
+ 
